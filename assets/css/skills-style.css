@@ -1,0 +1,89 @@
+body 
+{
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 40px;
+  margin: 0;
+}
+
+.skills-container 
+{
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn 
+{
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h1 
+{
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.skill 
+{
+  margin-bottom: 20px;
+}
+
+.skill h3 
+{
+  margin: 0 0 10px 0;
+  color: #444;
+}
+
+.skill-bar 
+{
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.skill-level 
+{
+  height: 25px;
+  line-height: 25px;
+  padding-left: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.html 
+{
+  width: 80%;
+  background-color: #e34c26;
+}
+
+.css 
+{
+  width: 75%;
+  background-color: #264de4;
+}
+
+.js
+{
+  width: 40%;
+  background-color: #f7df1e;
+}
+
+.java 
+{
+  width: 60%;
+  background-color: #f0db4f;
+  color: #000;
+}
+
+.ms 
+{
+  width: 80%;
+  background-color: #306998;
+}
